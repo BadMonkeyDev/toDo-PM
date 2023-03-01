@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+button {
+  padding: 5px 15px;
+  border: 1px solid black;
+  height: fit-content;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+table {
+  table-layout: fixed;
+  width: 550px;
+  text-align: center;
+  border: none;
+  border-spacing: 0;
+  border-collapse:collapse
+}
+
+tr {
+  background-color: gray;
+  border-bottom: 5px solid lightgray;
+}
+
+tr:not(:first-child):hover {
+  background-color: dimgray;
+}
+
+th {
+  padding: 5px;
+  background-color: darkgrey;
+}
+
+td {
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+}

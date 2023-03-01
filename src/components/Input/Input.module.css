@@ -1,0 +1,21 @@
+.input{
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.inputField {
+    padding: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.inputError {
+    border-color: red;
+}
+
+.inputErrorMessage {
+    position: absolute;
+    bottom: 0;
+    left: 6px;
+    color: red;
+}
